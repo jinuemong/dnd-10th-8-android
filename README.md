@@ -2,31 +2,26 @@
 
 [![Android CI](https://github.com/dnd-side-project/dnd-10th-8-android/actions/workflows/android.yml/badge.svg?branch=main)](https://github.com/dnd-side-project/dnd-10th-8-android/actions/workflows/android.yml)
 
-### Build
-
-- Gradle 8.5
-- AGP 8.2.1
-- Kotlin 1.9.21
-- JDK 17
-- Kotlin DSL
-- Version Catalog
-
-### Library
-
-- KotlinX
-    - Coroutines
-    - Serialization
-    - DateTime
-- AndroidX
-    - Room
-    - Paging
-    - NavigationUI
+### Stack 
+**Core**
+- Kotlin
+- Kotlin DSL + version catalog
+- Coroutine + Flow
 - Dagger Hilt
-- Ktor
-- Glide
+
+**Presentation**
+- Compose + NavigationUI
+- Coil
 - Lottie
-- Debug & Log
-    - OkHttp3 Logging Interceptor (App Inspection)
-    - Leak Canary 2
-    - Timber
-    - Sentry
+
+**Data**
+- Ktor + KotlinXSerialization
+- Room
+- Datastore
+- Paging
+
+**Debug**
+- Sentry
+- Okhttp3 logging interceptor
+- Timber
+- LeakCanary2
